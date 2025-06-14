@@ -1,0 +1,22 @@
+.back-to-top-btn {
+  position: fixed;
+  bottom: 1.2rem;
+  right: 1.2rem;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  background-color: #e50914;
+  color: white;
+  border-radius: 10px;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.back-to-top-btn:hover {
+  background-color: #f40612;
+  transform: scale(1.05);
+}
+
+@media screen and (min-width: 768px) {
+  .back-to-top-btn {
+    font-size: 1.5rem;
+  }
+}
