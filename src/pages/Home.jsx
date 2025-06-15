@@ -11,7 +11,7 @@ function Home() {
 
   // load movies at init
   useEffect(() => {
-    const loadPopuplarMovies = async () => {
+    const loadPopularMovies = async () => {
       try {
         const popularMovies = await getPopularMovies();
         setMovies(popularMovies);
@@ -24,7 +24,7 @@ function Home() {
       }
     };
 
-    loadPopuplarMovies();
+    loadPopularMovies();
   }, []);
 
   const handleSearch = async (e) => {
